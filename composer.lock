@@ -12,23 +12,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eloquent/composer-npm-bridge.git",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a"
+                "reference": "90ef5a489ecd1685c3271f9638238085414e08b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
-                "reference": "0643df1fdf2c15feb2ea0d75e6559ba1b80bc18a",
+                "url": "https://api.github.com/repos/eloquent/composer-npm-bridge/zipball/90ef5a489ecd1685c3271f9638238085414e08b1",
+                "reference": "90ef5a489ecd1685c3271f9638238085414e08b1",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1",
-                "php": ">=5.3"
+                "php": ">=7"
             },
             "require-dev": {
                 "composer/composer": "dev-master",
-                "eloquent/phony": "^0.8",
-                "icecave/archer": "dev-develop",
-                "phpunit/phpunit": "^4"
+                "eloquent/phony-phpunit": "^2",
+                "errors/exceptions": "^0.2",
+                "phpunit/phpunit": "^6"
             },
             "type": "composer-plugin",
             "extra": {
@@ -61,7 +61,7 @@
                 "package",
                 "plugin"
             ],
-            "time": "2017-07-11 04:03:41"
+            "time": "2017-07-12 01:16:01"
         },
         {
             "name": "ezzatron/composer-npm-bridge-fixture-dependency",
@@ -69,12 +69,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency.git",
-                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f"
+                "reference": "45b4ed16e994e90938182440ea9b64fbd3a9d659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/2760048216e7ae134d39cc3b9501ef713d78542f",
-                "reference": "2760048216e7ae134d39cc3b9501ef713d78542f",
+                "url": "https://api.github.com/repos/ezzatron/composer-npm-bridge-fixture-dependency/zipball/45b4ed16e994e90938182440ea9b64fbd3a9d659",
+                "reference": "45b4ed16e994e90938182440ea9b64fbd3a9d659",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "source": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/tree/master",
                 "issues": "https://github.com/ezzatron/composer-npm-bridge-fixture-dependency/issues"
             },
-            "time": "2017-07-11 05:33:54"
+            "time": "2017-07-12 02:37:53"
         }
     ],
     "packages-dev": [],
